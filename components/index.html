@@ -11,7 +11,10 @@
     </head>
     <body>
         <h1>test Page</h1>
+        
         <product-component product-id="1">
+            <ui-message slot="UiMessages" msg-id="product-added-success-message">Product added successfuly!</ui-message>
+            <ui-message slot="UiMessages" msg-id="product-added-failure-message">Product could not be added.</ui-message>
             <img slot="ProductImage" src="./Rfi6Krk.png"/>
             <span slot="AddButtonContent">Add</span>
             <span slot="WishButtonContent">Wish</span>

@@ -1,7 +1,6 @@
 export class ValidatedInput extends HTMLInputElement{
   constructor(self) {
     super(self);
-    console.log('gothere');
     return self;
   }
 

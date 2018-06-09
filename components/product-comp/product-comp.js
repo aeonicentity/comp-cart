@@ -67,7 +67,7 @@ export class ProductComp extends HTMLElement{
   }
 
   showSuccessMessage(){
-    this.classList.add('product-added');
+    this.querySelector('ui-message[msg-id="product-added-success-message"]').activateMsg();
   }
 
   showFailureMessage(){

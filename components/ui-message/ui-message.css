@@ -1,0 +1,7 @@
+ui-message{
+    display:none;
+}
+
+ui-message[msg-active="true"]{
+    display:block;
+}
