@@ -1,0 +1,39 @@
+{
+  "name": "comp-cart",
+  "version": "0.0.0",
+  "description": "Reusable shadow dom UI component based web cart, with node API server.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aeonicentity/comp-cart.git"
+  },
+  "keywords": [
+    "Web Cart",
+    "E-commerce",
+    "UI",
+    "Reusable"
+  ],
+  "author": "David Brilliant",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aeonicentity/comp-cart/issues"
+  },
+  "homepage": "https://github.com/aeonicentity/comp-cart#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "css-loader": "^0.28.7",
+    "eslint": "^4.4.1",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-eslint": "^4.0.0",
+    "html-loader": "^0.5.1",
+    "webpack": "^2.7.0",
+    "webpack-stream": "^4.0.0"
+  },
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}

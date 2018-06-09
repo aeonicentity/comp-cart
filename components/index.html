@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+    <head>
+        <script src="main.js"></script>
+        <style>
+        slot-test{
+            display:block;
+            margin-left:20px;
+        }
+        </style>
+    </head>
+    <body>
+        <h1>test Page</h1>
+        <product-component product-id="1">
+            <img slot="ProductImage" src="./Rfi6Krk.png"/>
+            <span slot="AddButtonContent">Add</span>
+            <span slot="WishButtonContent">Wish</span>
+        </product-component>
+
+        <input is="validated-input">
+    </body>
+</html>

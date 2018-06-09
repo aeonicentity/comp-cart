@@ -1,0 +1,9 @@
+:host .product-added-success-message, .product-added-failure-message{
+    display:none;
+}
+:host(.product-added) .product-added-success-message{
+    display:block;
+}
+:host(.product-failed) .product-added-failure-message{
+    display:block;
+}

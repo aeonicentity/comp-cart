@@ -1,0 +1,12 @@
+<p>This is a product</p>
+<slot name="ProductImage" class="comp-cart-product-image"></slot>
+
+<input class="comp-cart-product-quantity" value="1"/>
+<button class="comp-cart-product-add-button">
+    <slot name="AddButtonContent"></slot>
+</button>
+<button class="comp-cart-product-wish-button">
+    <slot name="WishButtonContent"></slot>
+</button>
+<span class="product-added-success-message">Product added successfuly!</span>
+<span class="product-added-failure-message">Product could not be added.</span>
